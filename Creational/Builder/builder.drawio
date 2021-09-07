@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="pc3VPZVuOJfe3GBH5f1J" name="Страница 1">
+        <mxGraphModel dx="791" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="37" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="150" y="50" width="110" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="group" parent="37" vertex="1" connectable="0">
+                    <mxGeometry width="110" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="+setName()&lt;br&gt;+setBell()&lt;br&gt;+setBasket()" style="whiteSpace=wrap;html=1;align=left;" parent="36" vertex="1">
+                    <mxGeometry y="31.25" width="110" height="68.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="«interface»&lt;br&gt;&lt;b&gt;IBuilder&lt;/b&gt;" style="html=1;" parent="37" vertex="1">
+                    <mxGeometry width="110" height="31.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="BuildBysicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="190" width="160" height="130" as="geometry">
+                        <mxRectangle x="30" y="240" width="150" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="- bysicle: Bysicle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="38" vertex="1">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="38" vertex="1">
+                    <mxGeometry y="52" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="+setName()&#10;+setBell()&#10;+setBasket()&#10;+getProduct()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="38" vertex="1">
+                    <mxGeometry y="60" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=block;dashed=1;endFill=1;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;rounded=0;" parent="1" source="38" target="35" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="110" y="240" as="sourcePoint"/>
+                        <mxPoint x="185" y="180" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="Bysicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="371" width="160" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="51" vertex="1">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" target="51" edge="1" source="41">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="205" y="330" as="sourcePoint"/>
+                        <mxPoint x="490" y="261" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

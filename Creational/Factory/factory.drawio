@@ -1,0 +1,84 @@
+<mxfile host="65bd71144e">
+    <diagram id="nZ2TPvJNz6dITwZ6QeqS" name="Страница 1">
+        <mxGraphModel dx="791" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="400" y="180" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="«interface»&lt;br&gt;&lt;b&gt;IFBysicle&lt;/b&gt;" style="html=1;" parent="4" vertex="1">
+                    <mxGeometry width="160" height="27.272727272727277" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="+createModification(): string" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="4" vertex="1">
+                    <mxGeometry y="27.272727272727277" width="160" height="32.72727272727273" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Factory" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="30" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="+ create(name:string): IFBysicle" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#2a2a2a;fontStyle=2" parent="5" vertex="1">
+                    <mxGeometry y="40" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" target="3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="264" y="207" as="sourcePoint"/>
+                        <mxPoint x="360" y="64" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="FactoryBysicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="180" width="180" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="+ create(name:string): IFBysicle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="17" vertex="1">
+                    <mxGeometry y="26" width="180" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=block;endFill=1;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;rounded=0;entryX=0.5;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="17" target="8" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="360" y="230" as="sourcePoint"/>
+                        <mxPoint x="180" y="102" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="390" y="270" width="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=none;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="40" target="37" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="55" as="sourcePoint"/>
+                        <mxPoint x="215" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="320" y="320" width="160" height="62.73" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Bysicle" style="html=1;fillColor=#2a2a2a;" parent="44" vertex="1">
+                    <mxGeometry width="160" height="30.000000000000007" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="+createModification(): string" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="44" vertex="1">
+                    <mxGeometry y="30.002727272727277" width="160" height="32.727272727272734" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=block;dashed=1;endFill=1;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;rounded=0;" parent="1" source="36" target="3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="450" y="270" as="sourcePoint"/>
+                        <mxPoint x="449.58" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="270"/>
+                            <mxPoint x="480" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="500" y="320" width="160" height="62.73" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="SportBysicle" style="html=1;fillColor=#2a2a2a;" parent="45" vertex="1">
+                    <mxGeometry width="160.00000000000003" height="30.000000000000007" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="+createModification(): string" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="45" vertex="1">
+                    <mxGeometry y="30.002727272727277" width="160.00000000000003" height="32.727272727272734" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
