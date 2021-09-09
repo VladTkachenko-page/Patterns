@@ -38,6 +38,3 @@ var flashlight = new Flashlight(new FlashlightOn());
 flashlight.request();
 flashlight.request();
 flashlight.request();
-flashlight.request();
-flashlight.request();
-flashlight.request();
