@@ -38,3 +38,4 @@ const sportBysicle = factory.createBysicle('Sport Bysicle', 'black');
 const childBysicle = factory.createBysicle('Child Bysicle', 'blue');
 
 console.log(factory.bysicles);
+console.log(standardBysicle1 === standardBysicle2);

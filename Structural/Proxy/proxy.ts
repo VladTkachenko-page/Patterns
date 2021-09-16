@@ -14,8 +14,8 @@ class Door implements IDoor{
 }
 
 class CodePanel implements IDoor {
-  door: Door;
-  doorOpen: boolean = false;
+  protected door: Door;
+  protected doorOpen: boolean = false;
 
   constructor(door: Door) {
     this.door = door
